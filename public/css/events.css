@@ -1,0 +1,364 @@
+#themofthemonth{
+  height: 50vh;
+  margin-top: 30vh;
+  margin-left: 28vh;
+}
+#NavBar{
+  position: fixed;
+  background: #32a87f;
+  width: 100%;
+  height: 21.7vh;
+  align-items: center;
+  z-index: 1000;
+}
+
+#innerNavBar{
+  width: 75%;
+  height: 100%;
+  background: #ff5900;
+  margin-left: 12.5%;
+}
+
+#innerNavBar-title{
+  font-weight: bolder;
+  color: white;
+  font-size: 3.4vh;
+  margin-left: 25%;
+}
+
+#innerNavbar-subtitle{
+  font-weight: 400;
+  font-size: 2.4vh;
+  font-stretch: extra-condensed;
+  margin-left: 37%;
+  text-shadow: 1px 2px 1px #bfbfbf;
+  color: #242222;
+}
+
+#innerNavBar-sub-subtitle{
+  font-weight: 700;
+  margin-left: 32.5%;
+  color: #777778;
+  -webkit-text-stroke: 1.2px white;
+}
+#innerNavBar-logo{
+  height: 12vh;
+  margin-left: 82.8%;
+  margin-top: -10%;
+}
+/*menu bar setting */
+
+#menuBar{
+  position: relative;
+  top: 21.7vh;
+  width: 75%;
+  margin-left: 12.5%;
+  height: 5vh;
+  background: #00fff7;
+}
+
+#menuBar-home{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-livestream{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-give{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-about-us{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-church-ministries{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-events{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-gallery{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-contact{
+  height: 100%;
+  width: 12.5%;
+}
+#menuBar-home-btn{
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+#menuBar-livestream-btn{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#menuBar-give-btn{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#menuBar-about-btn{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#menuBar-church-btn{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 1.75vh;
+  font-weight: 500;
+}
+
+#menuBar-events-btn{
+  height: 100%;
+  width: 100%;
+  background: #733800;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#menuBar-gallery-btn{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#menuBar-contact-btn{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#menuBar-home-btn:hover{
+}
+#menuBar-livestream-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+#menuBar-give-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+#menuBar-about-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+#menuBar-church-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+#menuBar-events-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+#menuBar-gallery-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+
+#menuBar-contact-btn:hover{
+  animation-name: ColorFade;
+  animation-duration: 0.5s;
+  background: #067870;
+}
+@keyframes ColorFade {
+  0% {
+    background: #00fff7 ;
+  }
+
+  100%{
+    background: #067870;
+  }
+}
+#mainbody-background{
+  position: fixed;
+  top: 19%;
+  width: 120%;
+  height: 100%;
+  filter: brightness(70%);
+  z-index: -2;
+}
+#mainbody-frame{
+  position: absolute;
+  top: 26.75vh;
+  width: 75%;
+  height: 70%;
+  background: white;
+  margin-left: 12.5%;
+  opacity: 0.8;
+  z-index: -1;
+}
+#menuBar-give-partnership{
+  position: absolute;
+  top: 26.7vh;
+  left: 44vh;
+  z-index: 10;
+  height: 4vh;
+  width: 17vh;
+  background: #63bfff;
+  visibility: hidden;
+}
+#menuBar-give-partnership-btn{
+  margin-top: 0.8vh;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 0;
+}
+#menuBar-give-partnership:hover{
+  visibility: visible;
+}
+#menuBar-give-partnership:hover{
+  animation-name: visible;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#menuBar-about-many{
+  position: absolute;
+  top:26.7vh;
+  left:57vh;
+  height: 17.8vh;
+  width: 17vh;
+  z-index: 10;
+  background: #63bfff;
+  visibility: hidden;
+}
+#menuBar-contact-address{
+  position: absolute;
+  top:26.7vh;
+  left:109.5vh;
+  height: 4vh;
+  width: 17vh;
+  z-index: 10;
+  background: #63bfff;
+  visibility: hidden;
+}
+#menuBar-contact-address-btn{
+  margin-top: 0.8vh;
+  background: transparent;
+  border: none;
+  padding: 0;
+  width: 100%;
+}
+
+#menuBar-contact-address:hover{
+  animation-name: visible;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+#menuBar-about-many-testimony{
+  height: 3vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+#menuBar-about-many:hover{
+  animation-name: visible;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes visible {
+  0%{
+    visibility: visible;
+  }
+  100%{
+    visibility: visible;
+  }
+}
+#menuBar-about-many-themandate{
+  height: 3vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+#menuBar-about-many-activities{
+  height: 3vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+#menuBar-about-many-themeofthemonth{
+  height: 3vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+#menuBar-about-many-themeoftheyear{
+  height: 3vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+#menuBar-about-many-prayerrequest{
+  height: 3vh;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/*Misc */
+#fill{
+  width: 100%;
+  height: 100%;
+}

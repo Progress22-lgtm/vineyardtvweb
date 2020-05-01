@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Livestream | VineyardTV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/activities.css">
+
+  </head>
+  <body>
+    <div id="MainContainer">
+      <div id="NavBar">
+        <div id="innerNavBar">
+          <br />
+          <h1 id="innerNavBar-title">VINEYARD OF GOD MINISTRIES</h1>
+          <h3 id="innerNavbar-subtitle">GLORIOUS CENTER</h3>
+          <h2 id="innerNavBar-sub-subtitle">CASTELLON, SPAIN.</h2>
+          <img id="innerNavBar-logo"src="../images/Applogo.png" alt="">
+        </div>
+      </div>
+      <div id="menuBar-give-partnership" onmouseover="showGiveBar("give-partnership")" onmouseout="hideGiveBar("give-partnership")"><button type="button" id="menuBar-give-partnership-btn">Partnership/Donation</button></div>
+      <div id="menuBar-about-many" onmouseover="showGiveBar("give-partnership")" onmouseout="hideGiveBar("give-partnership")">
+        <button type="button" id="menuBar-about-many-testimony">Send Your Testimony</button>
+        <br />
+        <button type="button" id="menuBar-about-many-themandate">The Mandate</button>
+        <br />
+        <button type="button" id="menuBar-about-many-activities">Activities</button>
+        <br />
+        <button type="button" id="menuBar-about-many-themeofthemonth">Theme of Month</button>
+        <br />
+        <button type="button" id="menuBar-about-many-themeoftheyear">Theme of the Year</button>
+        <br />
+        <button type="button" id="menuBar-about-many-prayerrequest">Prayer Request</button>
+      </div>
+      <div id="menuBar-contact-address" onmouseover="showGiveBar("give-partnership")" onmouseout="hideGiveBar("give-partnership")"><button type="button" id="menuBar-contact-address-btn">Address</button></div>
+      <div id="menuBar" class="row">
+        <div id="menuBar-home"><button id="menuBar-home-btn" >Home</button></div>
+        <div id="menuBar-livestream"><button type="button" id="menuBar-livestream-btn">Livestream</button></div>
+        <div id="menuBar-give"><button type="button" onmouseover="showGiveBar()" onmouseout="hideGiveBar()" id="menuBar-give-btn">Give</button></div>
+        <div id="menuBar-about-us"><button type="button" onmouseover="showAboutBar()" onmouseout="hideAboutBar()" id="menuBar-about-btn">About Us</button></div>
+        <div id="menuBar-church-ministries"><button type="button" id="menuBar-church-btn">Church Ministries</button></div>
+        <div id="menuBar-events"><button type="button" id="menuBar-events-btn">Events</button></div>
+        <div id="menuBar-gallery"><button type="button" id="menuBar-gallery-btn">Gallery</button></div>
+        <div id="menuBar-contact"><button type="button" onmouseover="showContactBar()" onmouseout="hideContactBar()" id="menuBar-contact-btn">Contact</button></div>
+      </div>
+      <img id="mainbody-background" src="../images/background.JPG" alt="">
+      <div id="mainbody-frame"></div>
+      <h1 id="ACTIVITIES_INFO">ACTIVITIES</h1>
+      <h2 id="ACTIVITIES_INFO_PLUS">Sunday, Glorious Service 11:00am <br /> Tuesday Service, Appointment With Grace 7:30pm <br /> Friday Service, Pray To Receive 7:30pm <br />First Friday Catch The Fire Night 8pm <br /> Every Last Is Thanksgiving Service <br />Every First Sunday Communion Service</h2>
+      <script type="text/javascript" src="../js/activities.js">
+
+      </script>
+    </body>
+</html>
